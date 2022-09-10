@@ -4,7 +4,7 @@ import SubjectCard from './SubjectCard/SubjectCard'
 const SubjectCards = ({data}) => {
   console.log(data)
   return (
-    <div>
+    <div style={{ display: "flex", justifyContent: 'space-around'}}>
       {data.map(info => <SubjectCard info={info} />)}
     </div>
   )
