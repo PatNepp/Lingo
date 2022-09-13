@@ -10,8 +10,8 @@ const SubjectCard = ({info}) => {
     <Card sx={subjectCardStyles.card} xs={4}>
       <CardMedia sx={subjectCardStyles.media} component='img' image={info.img} height="140" alt='fruit' />
       <CardContent sx={subjectCardStyles.content}>
-          <Typography variant='h4'>{info.germanTitle}</Typography>
-          <Typography variant='h5'>{info.title}</Typography>
+          <Typography variant='h4'>{info.germanSubject}</Typography>
+          <Typography variant='h5'>{info.subject}</Typography>
       </CardContent>
       <CardActions>
         {firstTime ? (

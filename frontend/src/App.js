@@ -1,14 +1,13 @@
 import React from 'react';
 import { Container, AppBar, Typography } from '@mui/material'
-import {data} from './fruit'
+import {data} from './data'
 import SubjectCards from './components/SubjectCards/SubjectCards';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Container>
-      <AppBar position='static'>
-        <Typography variant='h2' align='center'>LINGO</Typography>
-      </AppBar>
+      <Navbar />
       <SubjectCards data={data} />
     </Container>
   );
