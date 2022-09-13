@@ -74,7 +74,15 @@ export const data = [
             {
                 english: 'eight',
                 translated: 'acht'
-            }
+            },
+            {
+                english: 'nine',
+                translated: 'neun'
+            },
+            {
+                english: 'ten',
+                translated: 'zehn'
+            },
         ]
     },
     {
@@ -113,8 +121,63 @@ export const data = [
             {
                 english: 'pink',
                 translated: 'rosa'
-            }
+            },
+            {
+                english: 'orange',
+                translated: 'orange'
+            },
+            {
+                english: 'rainbow colors',
+                translated: 'regenbogenfarben'
+            },
         ]
-    }
+    },
+    {
+        subject: 'Clothes',
+        germanSubject: 'Kleidung',
+        img: 'https://images.unsplash.com/photo-1619166719123-471cee9ce91e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80',
+        subjectWords: [
+            {
+                english: 'shirt',
+                translated: 'hemd'
+            },
+            {
+                english: 'sweater',
+                translated: 'pullover'
+            },
+            {
+                english: 'coat',
+                translated: 'mantel'
+            },
+            {
+                english: 'pants',
+                translated: 'hose'
+            },
+            {
+                english: 'shoes',
+                translated: 'schuhe'
+            },
+            {
+                english: 'skirt',
+                translated: 'rock'
+            },
+            {
+                english: 'underwear',
+                translated: 'unterwäsche'
+            },
+            {
+                english: 'dress',
+                translated: 'kleid'
+            },
+            {
+                english: 'hat',
+                translated: 'hut'
+            },
+            {
+                english: 'shorts',
+                translated: 'shorts'
+            },
+        ]
+    },
     
 ]
